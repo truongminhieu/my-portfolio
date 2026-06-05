@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 6 - AI có trách nhiệm | Portfolio</title>
+    <meta
+      name="description"
+      content="Bài 6 xây dựng bộ nguyên tắc sử dụng AI có trách nhiệm trong học tập và nghiên cứu."
+    />
+    <meta property="og:title" content="Bài 6 - AI có trách nhiệm" />
+    <meta
+      property="og:description"
+      content="Nội dung bài 6: nguyên tắc AI có trách nhiệm, đạo đức và minh bạch khi ứng dụng AI."
+    />
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html">Portfolio</a>
+        <button class="nav-toggle" aria-label="Mở menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" aria-label="Điều hướng chính">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="../index.html">Trang chủ</a></li>
+            <li><a class="nav-link" href="../index.html#projects">Dự án</a></li>
+            <li><a class="nav-link" href="tong-ket.html">Tổng kết</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="assignment-page">
+      <section class="assignment-intro section">
+        <div class="container">
+          <span class="eyebrow">Bài 6</span>
+          <h1>AI có trách nhiệm trong học tập và nghiên cứu</h1>
+          <p>
+            Mục tiêu bài làm: Phát triển kỹ năng sử dụng AI có trách nhiệm và đạo đức trong học tập và nghiên cứu.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container assignment-body">
+          <div>
+            <h2>Chủ đề và chính sách Nhà trường</h2>
+            <p>
+              Phát triển kỹ năng sử dụng AI có trách nhiệm và đạo đức trong học tập và nghiên cứu.
+            </p>
+            <div class="source-group">
+              <h3>Chính sách của UET và VNU</h3>
+              <p>
+                Đại học Quốc gia Hà Nội nói chung và UET nói riêng luôn đi đầu trong chuyển đổi số, nhưng nhà trường quy định rất nghiêm ngặt về Liêm chính học thuật theo quy chế đào tạo và hướng dẫn về sở hữu trí tuệ.
+              </p>
+              <ul>
+                <li><strong>Thái độ với AI:</strong> Khuyến khích sinh viên tiếp cận, làm chủ công nghệ và dùng AI như công cụ hỗ trợ nâng cao hiệu suất học tập, lập trình và nghiên cứu.</li>
+                <li><strong>Giới hạn đỏ:</strong> Nghiêm cấm đạo văn, copy-paste trực tiếp văn bản hoặc mã nguồn do AI tạo ra rồi biến thành sản phẩm cá nhân mà không qua xử lý, phân tích hoặc trích dẫn nguồn.</li>
+                <li><strong>Yêu cầu minh bạch:</strong> Sinh viên phải khai báo công khai công cụ AI đã sử dụng và vai trò của nó trong tiểu luận, nghiên cứu khoa học sinh viên.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h2>Nhật ký thực hiện nhiệm vụ</h2>
+            <div class="source-group">
+              <h3>Tình huống giả định</h3>
+              <p>
+                Tổng hợp tài liệu cho đề tài “Ứng dụng Học máy (Machine Learning) trong dự báo chất lượng không khí tại Hà Nội”.
+              </p>
+            </div>
+            <div class="source-group">
+              <h3>Prompt đã sử dụng</h3>
+              <p>
+                Prompt 1 (Yêu cầu cấu trúc) yêu cầu tổng hợp phương pháp chính, thuật toán, kết quả, hạn chế từ ba bài báo khoa học.
+              </p>
+            </div>
+            <div class="source-group">
+              <h3>Output của AI</h3>
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Tiêu chí</th>
+                    <th>Bài 1 (RF)</th>
+                    <th>Bài 2 (LSTM)</th>
+                    <th>Bài 3 (MLR)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Thuật toán chính</td>
+                    <td>Random Forest Regressor (Ensemble Learning)</td>
+                    <td>Long Short-Term Memory (LSTM) - Mạng nơ-ron hồi quy</td>
+                    <td>Multiple Linear Regression (MLR) - Hồi quy tuyến tính đa biến</td>
+                  </tr>
+                  <tr>
+                    <td>Mục tiêu & tần suất dự báo</td>
+                    <td>Dự báo PM2.5 theo ngày</td>
+                    <td>Dự báo AQI/PM2.5 theo giờ</td>
+                    <td>Dự báo chất lượng không khí ngắn hạn</td>
+                  </tr>
+                  <tr>
+                    <td>Dữ liệu đầu vào</td>
+                    <td>Khí tượng (nhiệt độ, độ ẩm, tốc độ gió) từ 2022-2025</td>
+                    <td>Chuỗi thời gian liên tục từ trạm quan trắc</td>
+                    <td>Dữ liệu lịch sử chất ô nhiễm và khí tượng</td>
+                  </tr>
+                  <tr>
+                    <td>Kết quả</td>
+                    <td>R² = 0.78, RMSE = 12.4 µg/m³</td>
+                    <td>R² = 0.85, nắm bắt tốt mô hình tuần tự</td>
+                    <td>R² = 0.62, baseline dễ giải thích</td>
+                  </tr>
+                  <tr>
+                    <td>Hạn chế</td>
+                    <td>Kém giai đoạn chuyển tiếp thời tiết cực đoan</td>
+                    <td>Chi phí tính toán cao, cần dữ liệu gap-free</td>
+                    <td>Không bắt được phi tuyến phức tạp, nhạy cảm với dữ liệu nhiễu</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="source-group">
+              <h3>Đánh giá và chỉnh sửa</h3>
+              <p>
+                AI hoàn thành xuất sắc việc phân loại và cấu trúc thông tin, giúp tiết kiệm 70% thời gian đọc lướt. Tuy nhiên, AI có xu hướng bỏ quên điều kiện biên của dữ liệu và đôi khi dịch sai thuật ngữ chuyên ngành.
+              </p>
+              <ul>
+                <li>Kiểm tra lại bảng tổng hợp của AI với bản gốc tiếng Anh để xác thực số liệu (R², RMSE).</li>
+                <li>Viết lại các đoạn tóm tắt bằng ngôn ngữ kỹ thuật chuẩn xác của UET.</li>
+                <li>Bổ sung nhận xét cá nhân về tính khả thi khi áp dụng các thuật toán này tại Hà Nội.</li>
+              </ul>
+            </div>
+            <div class="source-group">
+              <h3>Trích dẫn AI minh bạch</h3>
+              <p>
+                “Trong quá trình thực hiện tổng hợp tài liệu, tác giả có sử dụng công cụ ChatGPT (phiên bản GPT-4o) để hỗ trợ phân loại, lập bảng so sánh sơ bộ các thuật toán từ Abstract của các tài liệu tham khảo [1], [2], [3]. Toàn bộ phần phân tích chuyên sâu, kiểm chứng số liệu và viết nội dung cuối cùng đều do tác giả thực hiện và chịu trách nhiệm.”
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2>Phân tích đạo đức</h2>
+            <div class="source-group">
+              <h3>Ranh giới hỗ trợ hợp lý và gian lận</h3>
+              <ul>
+                <li><strong>Hỗ trợ hợp lý:</strong> Dùng AI giải thích khái niệm khó, sửa lỗi code, sửa lỗi ngữ pháp, gợi ý cấu trúc bài viết, tóm tắt tài liệu.</li>
+                <li><strong>Gian lận học thuật:</strong> Giao AI viết toàn bộ bài luận, tạo code đồ án rồi nộp mà không hiểu thuật toán.</li>
+              </ul>
+            </div>
+            <div class="source-group">
+              <h3>Quyền sở hữu trí tuệ và trích dẫn</h3>
+              <ul>
+                <li>AI học từ dữ liệu của nhiều tác giả mà không xin phép. Nếu lấy nguyên văn AI, dễ dẫn tới đạo văn gián tiếp.</li>
+                <li>AI thường “ảo tưởng” (hallucination) và bịa ra nguồn tham khảo. Nếu không kiểm tra, bài nghiên cứu mất giá trị khoa học.</li>
+              </ul>
+            </div>
+            <div class="source-group">
+              <h3>Tác động đến học tập</h3>
+              <ul>
+                <li><strong>Tích cực:</strong> AI là trợ lý 1 kèm 1, giúp sinh viên UET đẩy nhanh tiến độ nghiên cứu và tiếp cận tri thức nhanh hơn.</li>
+                <li><strong>Tiêu cực:</strong> Quá phụ thuộc AI dễ làm thui chột tư duy phản biện, đọc hiểu sâu và kỹ năng giải quyết vấn đề.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h2>6 nguyên tắc cá nhân</h2>
+            <ul class="step-list">
+              <li>
+                <h3>Con người làm chủ</h3>
+                <p>AI chỉ là trợ lý, tôi luôn là đạo diễn và quyết định cuối cùng.</p>
+              </li>
+              <li>
+                <h3>Xác thực kép</h3>
+                <p>Luôn hoài nghi và kiểm tra lại mọi số liệu, code hoặc nguồn trích dẫn AI cung cấp.</p>
+              </li>
+              <li>
+                <h3>Minh bạch tuyệt đối</h3>
+                <p>Công khai khai báo rõ ràng việc đã dùng AI ở phân đoạn nào và công cụ gì.</p>
+              </li>
+              <li>
+                <h3>Nói không với Copy-Paste</h3>
+                <p>Không sao chép nguyên văn, mọi nội dung AI phải được xử lý và diễn đạt lại bằng tư duy của tôi.</p>
+              </li>
+              <li>
+                <h3>Tập trung vào bản chất</h3>
+                <p>Chỉ dùng AI khi đã hiểu rõ nền tảng kiến thức; không dùng AI để “vượt rào” bài tập.</p>
+              </li>
+              <li>
+                <h3>Bảo mật dữ liệu</h3>
+                <p>Không tải lên AI công cộng dữ liệu nghiên cứu chưa công bố hoặc tài liệu nội bộ của UET.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Thiết kế Infographic</h2>
+            <p>
+              Đây là phần infographic của bài 6, mô tả bộ nguyên tắc sử dụng AI có trách nhiệm trong học thuật.
+            </p>
+            <div class="image-grid">
+              <img src="../images/assignments/bai6/6_nguyên_tắc_dùng_AI.png" alt="Thiết kế Infographic AI có trách nhiệm" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="project-card fade-up delay-2">
+            <img src="../images/project-6.svg" alt="Minh họa bài 6" />
+            <div class="project-card-body">
+              <h3>Minh chứng AI có trách nhiệm</h3>
+              <p>
+                Bài học nhấn mạnh sự cân bằng giữa AI và tư duy con người để bảo đảm tính minh bạch, đạo đức và hiệu quả nghiên cứu.
+              </p>
+              <div class="project-actions">
+                <a class="btn btn-primary" href="../files/bai6.pdf" target="_blank" rel="noreferrer noopener">Mở PDF</a>
+                <a class="btn btn-secondary" href="../index.html">Về trang chủ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a class="back-to-top" href="../index.html#home" aria-label="Quay về đầu trang">↑</a>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Trương Minh Hiếu | MSSV: 25021770 | Trường Đại học Công nghệ | Năm học 2025-2026</p>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

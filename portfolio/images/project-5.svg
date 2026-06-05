@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Copilot icon</title>
+  <desc id="desc">Blue GitHub Copilot robot icon</desc>
+  <defs>
+    <linearGradient id="visor" x1="37" x2="91" y1="30" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42dcff"/>
+      <stop offset="1" stop-color="#3467d6"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="25" x2="104" y1="38" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55d4ff"/>
+      <stop offset="1" stop-color="#1550a8"/>
+    </linearGradient>
+  </defs>
+  <path d="M28 64c0-20 15-35 36-35s36 15 36 35v20c0 21-15 34-36 34S28 105 28 84V64Z" fill="#eef9ff" stroke="#1550a8" stroke-width="7"/>
+  <path d="M28 67h-8c-7 0-12 6-12 13v14c0 7 5 13 12 13h8V67Zm72 0h8c7 0 12 6 12 13v14c0 7-5 13-12 13h-8V67Z" fill="url(#blue)" stroke="#1550a8" stroke-width="6"/>
+  <path d="M42 15h44c18 0 32 14 32 32v6c0 15-11 27-26 27H83c-5 0-9-2-12-6l-7-9-7 9c-3 4-7 6-12 6h-9c-15 0-26-12-26-27v-6c0-18 14-32 32-32Z" fill="url(#visor)" stroke="#1550a8" stroke-width="7"/>
+  <path d="m48 43-13 13 13 13M80 43l13 13-13 13M70 41l-12 30" fill="none" stroke="#f6fbff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M51 87v16M77 87v16" stroke="#1550a8" stroke-width="8" stroke-linecap="round"/>
+</svg>

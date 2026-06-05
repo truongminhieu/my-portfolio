@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT icon</title>
+  <desc id="desc">Black OpenAI style knot icon</desc>
+  <g fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 15c15 0 25 10 27 23 13 3 22 14 22 28 0 15-10 25-23 29-4 12-14 20-27 20-15 0-25-9-29-22-12-4-20-14-20-27 0-15 9-25 22-29 4-13 14-22 28-22Z"/>
+    <path d="m47 36 17-10 29 17v33"/>
+    <path d="m81 31-34 20v35l17 10"/>
+    <path d="m35 49 29 17 31-18"/>
+    <path d="m34 80 30 18 31-18V62"/>
+    <path d="m81 96V61L50 43"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI icon</title>
+  <desc id="desc">Black OpenAI style knot icon variant</desc>
+  <g fill="none" stroke="#050505" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 15c15 0 25 10 28 24 13 4 21 14 21 28 0 15-10 26-24 29-4 12-14 20-27 20-15 0-26-9-29-23-12-4-20-14-20-27 0-15 9-25 22-29 4-13 14-22 29-22Z"/>
+    <path d="M47 35v34l34 20"/>
+    <path d="m81 31-34 20-29-17"/>
+    <path d="m35 49 29 17v37"/>
+    <path d="m33 80 31 18 30-18V45"/>
+    <path d="m94 48-30 18-31-18"/>
+  </g>
+</svg>

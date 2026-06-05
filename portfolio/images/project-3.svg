@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini icon</title>
+  <desc id="desc">Colorful Gemini sparkle icon</desc>
+  <defs>
+    <linearGradient id="gemini" x1="22" x2="106" y1="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2d8cff"/>
+      <stop offset=".32" stop-color="#5b7cfa"/>
+      <stop offset=".55" stop-color="#34b879"/>
+      <stop offset=".75" stop-color="#ffd84f"/>
+      <stop offset="1" stop-color="#ff4e63"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 13c8 30 21 43 51 51-30 8-43 21-51 51-8-30-21-43-51-51 30-8 43-21 51-51Z" fill="url(#gemini)"/>
+</svg>
