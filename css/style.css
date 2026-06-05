@@ -425,6 +425,44 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.assignment-nav-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.assignment-nav-link {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  color: var(--text);
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.assignment-nav-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(226, 61, 61, 0.35);
+  background: var(--surface-strong);
+}
+
+.assignment-nav-link span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.assignment-nav-link strong {
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.assignment-nav-next {
+  text-align: right;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -845,6 +883,14 @@ a {
 
   .summary-preview-action {
     padding: 1.2rem;
+  }
+
+  .assignment-nav-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .assignment-nav-next {
+    text-align: left;
   }
 
   .journey-card {
